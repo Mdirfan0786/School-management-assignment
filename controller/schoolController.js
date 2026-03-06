@@ -9,7 +9,7 @@ export const addSchool = (req, res) => {
   }
 
   const sql =
-    "INSERT INTO schools (name,address,latitude,longitude) VALUES (?,?,?,?)";
+    "INSERT INTO schools_new (name,address,latitude,longitude) VALUES (?,?,?,?)";
 
   db.query(sql, [name, address, latitude, longitude], (err, result) => {
     if (err) return res.status(500).json(err);
@@ -23,7 +23,7 @@ export const addSchool = (req, res) => {
 export const listSchools = (req, res) => {
   const { latitude, longitude } = req.query;
 
-  db.query("SELECT * FROM schools", (err, results) => {
+  db.query("SELECT * FROM schools_new", (err, results) => {
     if (err) return res.status(500).json(err);
 
     const sortedSchools = results
