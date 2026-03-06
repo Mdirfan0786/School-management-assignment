@@ -174,6 +174,19 @@ You can test the API using:
 - Thunder Client
 - Browser (for GET endpoints)
 
+---
+
+## 📬 Contact
+
+If you want to connect or collaborate with me:
+
+- **GitHub:** https://github.com/Mdirfan0786
+- **Portfolio:** https://apna-portfolio-drab.vercel.app/
+
+---
+
+⭐ If you like this project, please consider giving it a **star** on GitHub!
+
 ## 👨‍💻 Author
 
 **MD IRFAN**
